@@ -15,16 +15,20 @@
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "keybindings": [
     {
-      "id": "Terminal.PrevTab",
-      "keys": "ctrl+shift+tab"
+      "id": "Terminal.NextTab",
+      "keys": "ctrl+tab"
+    },
+    {
+      "id": "Terminal.OpenNewTab",
+      "keys": "ctrl+t"
     },
     {
       "id": "Terminal.CopyToClipboard",
       "keys": "ctrl+c"
     },
     {
-      "id": "Terminal.OpenNewTab",
-      "keys": "ctrl+t"
+      "id": "Terminal.PrevTab",
+      "keys": "ctrl+shift+tab"
     },
     {
       "id": "Terminal.FindText",
@@ -37,10 +41,6 @@
     {
       "id": "Terminal.ToggleFullscreen",
       "keys": "f11"
-    },
-    {
-      "id": "Terminal.NextTab",
-      "keys": "ctrl+tab"
     }
   ],
   "newTabMenu": [
@@ -86,55 +86,61 @@
         "guid": "{346bd9cb-6064-43d4-94b1-7ff6ac825a6e}",
         "icon": "\ue770",
         "name": "VPS Server IONOS"
+      },
+      {
+        "guid": "{dc76b204-6601-5f00-b3be-6c5ef7510ca4}",
+        "hidden": false,
+        "name": "Ubuntu-24.04",
+        "source": "Microsoft.WSL"
       }
     ]
   },
   "schemes": [
     {
-      "background": "#0E1019",
-      "black": "#232323",
-      "blue": "#008DF8",
-      "brightBlack": "#444444",
-      "brightBlue": "#0092FF",
-      "brightCyan": "#67FFF0",
-      "brightGreen": "#ABE15B",
-      "brightPurple": "#9A5FEB",
-      "brightRed": "#FF2740",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FFD242",
-      "cursorColor": "#FF0018",
-      "cyan": "#00D8EB",
-      "foreground": "#FFFAF4",
-      "green": "#8CE10B",
       "name": "Argonaut",
-      "purple": "#6D43A6",
-      "red": "#FF000F",
-      "selectionBackground": "#002A3B",
-      "white": "#FFFFFF",
-      "yellow": "#FFB900"
+      "background": "#0E1019",
+      "foreground": "#ECEFF4",
+      "selectionBackground": "#3B82F6",
+      "cursorColor": "#F97316",
+      "black": "#1E1E2E",
+      "red": "#F38BA8",
+      "green": "#A6E3A1",
+      "yellow": "#F9E2AF",
+      "blue": "#89B4FA",
+      "purple": "#CBA6F7",
+      "cyan": "#94E2D5",
+      "white": "#CDD6F4",
+      "brightBlack": "#585B70",
+      "brightRed": "#F38BA8",
+      "brightGreen": "#A6E3A1",
+      "brightYellow": "#F9E2AF",
+      "brightBlue": "#89B4FA",
+      "brightPurple": "#CBA6F7",
+      "brightCyan": "#94E2D5",
+      "brightWhite": "#FFFFFF"
     },
     {
       "background": "#300A24",
+      "foreground": "#F2F2F2",
+      "selectionBackground": "#E95420",
+      "cursorColor": "#E95420",
       "black": "#2E3436",
-      "blue": "#3465A4",
-      "brightBlack": "#555753",
-      "brightBlue": "#729FCF",
-      "brightCyan": "#34E2E2",
-      "brightGreen": "#8AE234",
-      "brightPurple": "#AD7FA8",
-      "brightRed": "#EF2929",
-      "brightWhite": "#EEEEEC",
-      "brightYellow": "#FCE94F",
-      "cursorColor": "#BBBBBB",
-      "cyan": "#06989A",
-      "foreground": "#EEEEEC",
-      "green": "#4E9A06",
-      "name": "Ubuntu (modified)",
-      "purple": "#75507B",
       "red": "#CC0000",
-      "selectionBackground": "#B5D5FF",
+      "green": "#4E9A06",
+      "yellow": "#C4A000",
+      "blue": "#3465A4",
+      "purple": "#75507B",
+      "cyan": "#06989A",
       "white": "#D3D7CF",
-      "yellow": "#C4A000"
+      "brightBlack": "#555753",
+      "brightRed": "#EF2929",
+      "brightGreen": "#8AE234",
+      "brightYellow": "#FCE94F",
+      "brightBlue": "#729FCF",
+      "brightPurple": "#AD7FA8",
+      "brightCyan": "#34E2E2",
+      "brightWhite": "#FFFFFF",
+      "name": "Ubuntu (modified)"
     }
   ],
   "themes": []
