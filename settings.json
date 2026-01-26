@@ -15,20 +15,20 @@
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "keybindings": [
     {
-      "id": "Terminal.NextTab",
-      "keys": "ctrl+tab"
-    },
-    {
-      "id": "Terminal.OpenNewTab",
-      "keys": "ctrl+t"
+      "id": "Terminal.PrevTab",
+      "keys": "ctrl+shift+tab"
     },
     {
       "id": "Terminal.CopyToClipboard",
       "keys": "ctrl+c"
     },
     {
-      "id": "Terminal.PrevTab",
-      "keys": "ctrl+shift+tab"
+      "id": "Terminal.OpenNewTab",
+      "keys": "ctrl+t"
+    },
+    {
+      "id": "Terminal.NextTab",
+      "keys": "ctrl+tab"
     },
     {
       "id": "Terminal.FindText",
@@ -51,7 +51,7 @@
   "profiles": {
     "defaults": {
       "antialiasingMode": "grayscale",
-      "colorScheme": "Argonaut",
+      "colorScheme": "Dracula",
       "cursorShape": "filledBox",
       "font": {
         "face": "JetBrainsMono Nerd Font Mono",
@@ -92,55 +92,61 @@
         "hidden": false,
         "name": "Ubuntu-24.04",
         "source": "Microsoft.WSL"
+      },
+      {
+        "guid": "{e4b89005-0725-5a4e-929f-2a479fa367ab}",
+        "hidden": false,
+        "name": "Ubuntu-24.04",
+        "source": "Microsoft.WSL"
       }
     ]
   },
   "schemes": [
     {
-      "name": "Argonaut",
-      "background": "#0E1019",
-      "foreground": "#ECEFF4",
-      "selectionBackground": "#3B82F6",
-      "cursorColor": "#F97316",
-      "black": "#1E1E2E",
-      "red": "#F38BA8",
-      "green": "#A6E3A1",
-      "yellow": "#F9E2AF",
-      "blue": "#89B4FA",
-      "purple": "#CBA6F7",
-      "cyan": "#94E2D5",
-      "white": "#CDD6F4",
-      "brightBlack": "#585B70",
-      "brightRed": "#F38BA8",
-      "brightGreen": "#A6E3A1",
-      "brightYellow": "#F9E2AF",
-      "brightBlue": "#89B4FA",
-      "brightPurple": "#CBA6F7",
-      "brightCyan": "#94E2D5",
-      "brightWhite": "#FFFFFF"
+      "name": "Dracula",
+      "cursorColor": "#F8F8F2",
+      "selectionBackground": "#44475A",
+      "background": "#282A36",
+      "foreground": "#F8F8F2",
+      "black": "#21222C",
+      "blue": "#BD93F9",
+      "cyan": "#8BE9FD",
+      "green": "#50FA7B",
+      "purple": "#FF79C6",
+      "red": "#FF5555",
+      "white": "#F8F8F2",
+      "yellow": "#F1FA8C",
+      "brightBlack": "#6272A4",
+      "brightBlue": "#D6ACFF",
+      "brightCyan": "#A4FFFF",
+      "brightGreen": "#69FF94",
+      "brightPurple": "#FF92DF",
+      "brightRed": "#FF6E6E",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFFFA5"
     },
     {
       "background": "#300A24",
-      "foreground": "#F2F2F2",
-      "selectionBackground": "#E95420",
-      "cursorColor": "#E95420",
       "black": "#2E3436",
-      "red": "#CC0000",
-      "green": "#4E9A06",
-      "yellow": "#C4A000",
       "blue": "#3465A4",
-      "purple": "#75507B",
-      "cyan": "#06989A",
-      "white": "#D3D7CF",
       "brightBlack": "#555753",
-      "brightRed": "#EF2929",
-      "brightGreen": "#8AE234",
-      "brightYellow": "#FCE94F",
       "brightBlue": "#729FCF",
-      "brightPurple": "#AD7FA8",
       "brightCyan": "#34E2E2",
+      "brightGreen": "#8AE234",
+      "brightPurple": "#AD7FA8",
+      "brightRed": "#EF2929",
       "brightWhite": "#FFFFFF",
-      "name": "Ubuntu (modified)"
+      "brightYellow": "#FCE94F",
+      "cursorColor": "#E95420",
+      "cyan": "#06989A",
+      "foreground": "#F2F2F2",
+      "green": "#4E9A06",
+      "name": "Ubuntu (modified)",
+      "purple": "#75507B",
+      "red": "#CC0000",
+      "selectionBackground": "#E95420",
+      "white": "#D3D7CF",
+      "yellow": "#C4A000"
     }
   ],
   "themes": []
