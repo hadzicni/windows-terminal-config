@@ -86,18 +86,6 @@
         "guid": "{346bd9cb-6064-43d4-94b1-7ff6ac825a6e}",
         "icon": "\ue770",
         "name": "VPS Server IONOS"
-      },
-      {
-        "guid": "{dc76b204-6601-5f00-b3be-6c5ef7510ca4}",
-        "hidden": false,
-        "name": "Ubuntu-24.04",
-        "source": "Microsoft.WSL"
-      },
-      {
-        "guid": "{e4b89005-0725-5a4e-929f-2a479fa367ab}",
-        "hidden": false,
-        "name": "Ubuntu-24.04",
-        "source": "Microsoft.WSL"
       }
     ]
   },
