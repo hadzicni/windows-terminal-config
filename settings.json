@@ -1,104 +1,111 @@
 {
-  "$help": "https://aka.ms/terminal-documentation",
-  "$schema": "https://aka.ms/terminal-profiles-schema",
-  "actions": [],
-  "copyFormatting": "none",
-  "copyOnSelect": false,
-  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-  "newTabMenu": [
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "keybindings": [],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
     {
-      "type": "remainingProfiles"
-    }
-  ],
-  "profiles": {
-    "defaults": {
-      "antialiasingMode": "grayscale",
-      "colorScheme": "Nord",
-      "cursorShape": "filledBox",
-      "font": {
-        "face": "JetBrainsMono Nerd Font Mono",
-        "size": 12
-      },
-      "historySize": 9000,
-      "opacity": 70,
-      "scrollbarState": "hidden",
-      "snapOnInput": true,
-      "useAcrylic": true
+        "defaults": 
+        {
+            "antialiasingMode": "grayscale",
+            "colorScheme": "Nord",
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "JetBrainsMono Nerd Font Mono",
+                "size": 12
+            },
+            "historySize": 9000,
+            "opacity": 70,
+            "scrollbarState": "hidden",
+            "snapOnInput": true,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Eingabeaufforderung"
+            },
+            {
+                "colorScheme": "Ubuntu (modified)",
+                "commandline": "powershell.exe ssh hadzicni@nikolahadzic.net",
+                "guid": "{346bd9cb-6064-43d4-94b1-7ff6ac825a6e}",
+                "icon": "\ue770",
+                "name": "VPS Server IONOS"
+            }
+        ]
     },
-    "list": [
-      {
-        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-        "hidden": false,
-        "name": "PowerShell",
-        "source": "Windows.Terminal.PowershellCore"
-      },
-      {
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "hidden": false,
-        "name": "Windows PowerShell"
-      },
-      {
-        "commandline": "%SystemRoot%\\System32\\cmd.exe",
-        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-        "name": "Eingabeaufforderung"
-      },
-      {
-        "colorScheme": "Ubuntu (modified)",
-        "commandline": "powershell.exe ssh hadzicni@nikolahadzic.net",
-        "guid": "{346bd9cb-6064-43d4-94b1-7ff6ac825a6e}",
-        "icon": "\ue770",
-        "name": "VPS Server IONOS"
-      }
-    ]
-  },
-  "schemes": [
-    {
-      "background": "#2E3440",
-      "black": "#3B4252",
-      "blue": "#81A1C1",
-      "brightBlack": "#4C566A",
-      "brightBlue": "#81A1C1",
-      "brightCyan": "#8FBCBB",
-      "brightGreen": "#A3BE8C",
-      "brightPurple": "#B48EAD",
-      "brightRed": "#BF616A",
-      "brightWhite": "#ECEFF4",
-      "brightYellow": "#EBCB8B",
-      "cursorColor": "#81A1C1",
-      "cyan": "#88C0D0",
-      "foreground": "#D8DEE9",
-      "green": "#A3BE8C",
-      "name": "Nord",
-      "purple": "#B48EAD",
-      "red": "#BF616A",
-      "selectionBackground": "#434C5E",
-      "white": "#E5E9F0",
-      "yellow": "#EBCB8B"
-    },
-    {
-      "background": "#300A24",
-      "black": "#2E3436",
-      "blue": "#3465A4",
-      "brightBlack": "#555753",
-      "brightBlue": "#729FCF",
-      "brightCyan": "#34E2E2",
-      "brightGreen": "#8AE234",
-      "brightPurple": "#AD7FA8",
-      "brightRed": "#EF2929",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FCE94F",
-      "cursorColor": "#E95420",
-      "cyan": "#06989A",
-      "foreground": "#F2F2F2",
-      "green": "#4E9A06",
-      "name": "Ubuntu (modified)",
-      "purple": "#75507B",
-      "red": "#CC0000",
-      "selectionBackground": "#E95420",
-      "white": "#D3D7CF",
-      "yellow": "#C4A000"
-    }
-  ],
-  "themes": [],
-  "useAcrylicInTabRow": true
+    "schemes": 
+    [
+        {
+            "background": "#2E3440",
+            "black": "#3B4252",
+            "blue": "#81A1C1",
+            "brightBlack": "#4C566A",
+            "brightBlue": "#81A1C1",
+            "brightCyan": "#8FBCBB",
+            "brightGreen": "#A3BE8C",
+            "brightPurple": "#B48EAD",
+            "brightRed": "#BF616A",
+            "brightWhite": "#ECEFF4",
+            "brightYellow": "#EBCB8B",
+            "cursorColor": "#81A1C1",
+            "cyan": "#88C0D0",
+            "foreground": "#D8DEE9",
+            "green": "#A3BE8C",
+            "name": "Nord",
+            "purple": "#B48EAD",
+            "red": "#BF616A",
+            "selectionBackground": "#434C5E",
+            "white": "#E5E9F0",
+            "yellow": "#EBCB8B"
+        },
+        {
+            "background": "#300A24",
+            "black": "#2E3436",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#E95420",
+            "cyan": "#06989A",
+            "foreground": "#F2F2F2",
+            "green": "#4E9A06",
+            "name": "Ubuntu (modified)",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#E95420",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
