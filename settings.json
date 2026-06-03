@@ -49,8 +49,7 @@
                 "name": "Eingabeaufforderung"
             },
             {
-                "colorScheme": "Ubuntu (modified)",
-                "commandline": "powershell.exe ssh hadzicni@nikolahadzic.net",
+                "commandline": "powershell.exe ssh hadzicni@nikolahadzic.dev",
                 "guid": "{346bd9cb-6064-43d4-94b1-7ff6ac825a6e}",
                 "icon": "\ue770",
                 "name": "VPS Server IONOS"
